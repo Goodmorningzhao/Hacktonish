@@ -1,0 +1,216 @@
+19:438  0:073  Found BIOS RSDP at F0040
+19:438  0:000  Printing ACPI tables from RSDP F0040 ...
+19:438  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:438  0:000    (Xsdt: 7B6CB0C8, Rsdt: 7B6CB028)
+19:438  0:000    7B6CB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 268
+19:438  0:000    7B6CB028: 'RSDT', 'CBX3', Rev: 1, Len: 152
+19:438  0:000    Tables in Xsdt: 29
+19:438  0:000    0. 7B6F2490: 'FACP', 'CBX3', Rev: 5, Len: 268
+19:438  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD80, XDsdt: 7B6CB260, XFacs: 0)
+19:438  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:440  0:002        7BFFFD80: 'FACS', Ver: 2, Len: 64
+19:440  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:440  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:440  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:440  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:440  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:440  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:440  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:440  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:440  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:440  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:440  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:440  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:440  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:440  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:440  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:440  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:440  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:440  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:440  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:440  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:440  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:440  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:440  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:440  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:440  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:440  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:440  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:440  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
+19:440  0:000    Tables in Rsdt: 29
+19:440  0:000    0. 7B6CB1D8: 'FACP', 'CBX3', Rev: 2, Len: 132
+19:440  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD40)
+19:440  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:442  0:001        7BFFFD40: 'FACS', Ver: 0, Len: 64
+19:442  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:442  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:442  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:442  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:442  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:442  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:442  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:442  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:442  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:442  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:442  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:442  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:442  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:442  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:442  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:442  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:442  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:442  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:442  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:442  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:442  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:442  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:442  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:442  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:442  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:442  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:442  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:442  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
+19:442  0:000  Found UEFI Acpi 2.0 RSDP at 7B6CB000
+19:442  0:000  Saving ACPI tables from RSDP 7B6CB000 to EFI\CLOVER\ACPI\origin ...
+19:442  0:000   7B6CB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:442  0:000    (Xsdt: 7B6CB0C8, Rsdt: 7B6CB028)
+19:442  0:000    7B6CB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 268
+19:442  0:000    7B6CB028: 'RSDT', 'CBX3', Rev: 1, Len: 152
+19:442  0:000    Tables in Xsdt: 29
+19:442  0:000    0. 7B6F2490: 'FACP', 'CBX3', Rev: 5, Len: 268
+19:442  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD80, XDsdt: 7B6CB260, XFacs: 0)
+19:442  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:444  0:001        7BFFFD80: 'FACS', Ver: 2, Len: 64
+19:444  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:444  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:444  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:444  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:444  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:444  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:444  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:444  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:444  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:444  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:444  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:444  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:444  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:444  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:444  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:444  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:444  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:444  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:444  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:444  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:444  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:444  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:444  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:444  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:444  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:444  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:444  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:444  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
+19:444  0:000    Tables in Rsdt: 29
+19:444  0:000    0. 7B6CB1D8: 'FACP', 'CBX3', Rev: 2, Len: 132
+19:444  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD40)
+19:444  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:446  0:001        7BFFFD40: 'FACS', Ver: 0, Len: 64
+19:446  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:446  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:446  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:446  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:446  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:446  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:446  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:446  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:446  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:446  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:446  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:446  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:446  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:446  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:446  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:446  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:446  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:446  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:446  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:446  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:446  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:446  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:446  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:446  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:446  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:446  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:446  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:446  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
+19:446  0:000  Found UEFI Acpi 1.0 RSDP at 7B6CB000
+19:446  0:000  Printing ACPI tables from RSDP 7B6CB000 ...
+19:446  0:000   7B6CB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:446  0:000    (Xsdt: 7B6CB0C8, Rsdt: 7B6CB028)
+19:446  0:000    7B6CB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 268
+19:446  0:000    7B6CB028: 'RSDT', 'CBX3', Rev: 1, Len: 152
+19:446  0:000    Tables in Xsdt: 29
+19:446  0:000    0. 7B6F2490: 'FACP', 'CBX3', Rev: 5, Len: 268
+19:446  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD80, XDsdt: 7B6CB260, XFacs: 0)
+19:446  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:448  0:001        7BFFFD80: 'FACS', Ver: 2, Len: 64
+19:448  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:448  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:448  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:448  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:448  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:448  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:448  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:448  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:448  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:448  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:448  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:448  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:448  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:448  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:448  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:448  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:448  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:448  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:448  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:448  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:448  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:448  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:448  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:448  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:448  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:448  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:448  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:448  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
+19:448  0:000    Tables in Rsdt: 29
+19:448  0:000    0. 7B6CB1D8: 'FACP', 'CBX3', Rev: 2, Len: 132
+19:448  0:000        (Dsdt: 7B6CB260, Facs: 7BFFFD40)
+19:448  0:000        7B6CB260: 'DSDT', 'CBX3', Rev: 2, Len: 160301
+19:450  0:001        7BFFFD40: 'FACS', Ver: 0, Len: 64
+19:450  0:000    1. 7B6F25A0: 'APIC', 'CBX3', Rev: 3, Len: 188
+19:450  0:000    2. 7B6F2660: 'FPDT', 'CBX3', Rev: 1, Len: 68
+19:450  0:000    3. 7B6F26A8: 'FIDT', 'CBX3', Rev: 1, Len: 172
+19:450  0:000    4. 7B6F2758: 'MCFG', 'CBX3', Rev: 1, Len: 60
+19:450  0:000    5. 7B6F2798: 'HPET', 'CBX3', Rev: 1, Len: 56
+19:450  0:000    6. 7B6F27D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+19:450  0:000    7. 7B6F27F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:450  0:000    8. 7B6F5958: 'SSDT', 'PegSsdt', Rev: 2, Len: 9625
+19:450  0:000    9. 7B6F7EF8: 'UEFI', '', Rev: 1, Len: 66
+19:450  0:000    10. 7B6F7F40: 'MSDM', 'CBX3', Rev: 3, Len: 85
+19:450  0:000    11. 7B6F7F98: 'HPET', 'SKL', Rev: 1, Len: 56
+19:450  0:000    12. 7B6F7FD0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+19:450  0:000    13. 7B6F8DB8: 'SSDT', 'DELL__MT', Rev: 2, Len: 2249
+19:450  0:000    14. 7B6F9688: 'SLIC', 'CBX3', Rev: 3, Len: 374
+19:450  0:000    15. 7B6F9800: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:450  0:000    16. 7B6FA6E0: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:450  0:000    17. 7B6FA778: 'WSMT', 'CBX3', Rev: 1, Len: 40
+19:450  0:000    18. 7B6FA7A0: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:450  0:000    19. 7B6FA8E8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:450  0:000    20. 7B6FAB88: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:450  0:000    21. 7B6FDB90: 'SSDT', 'TbtTypeC', Rev: 2, Len: 533
+19:450  0:000    22. 7B6FDDA8: 'DBGP', '', Rev: 1, Len: 52
+19:450  0:000    23. 7B6FDDE0: 'DBG2', '', Rev: 0, Len: 84
+19:450  0:000    24. 7B6FDE38: 'DMAR', 'SKL', Rev: 1, Len: 168
+19:450  0:000    25. 7B6FDEE0: 'VFCT', 'CBX3', Rev: 1, Len: 59524
+19:450  0:000    26. 7B70C768: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+19:450  0:000    27. 7B70C7A0: 'ASF!', ' HCG', Rev: 32, Len: 160
+19:450  0:000    28. 7B70C840: 'BGRT', '', Rev: 0, Len: 56
