@@ -332,32 +332,26 @@
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>External Display Device</string>
+				<string>Internal@0,3,0</string>
 				<key>device_type</key>
 				<string>External Display Controller</string>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-3</string>
 				<key>model</key>
 				<string>AMD Radeon RX 460</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in Audio Device</string>
+				<string>Internal@0,31,3</string>
 				<key>alc-delay</key>
 				<integer>500</integer>
-				<key>device-id</key>
-				<data>
-				cJ0AAA==
-				</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
-				<string>onboard-3</string>
+				<string>onboard-2</string>
 				<key>layout-id</key>
-				<data>
-				CwAAAA==
-				</data>
+				<integer>11</integer>
 				<key>model</key>
 				<string>100 Series/C230 Series Audio Controller</string>
 			</dict>
@@ -368,29 +362,13 @@
 				AQASGQ==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Built-in Display Device</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				EhkAAA==
 				</data>
 				<key>device_type</key>
 				<string>Internal Display Controller</string>
-				<key>framebuffer-con0-alldata</key>
-				<data>
-				AQUJAAAIAACHAQAA
-				</data>
-				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>
-				AgAKAAAEAACHAQAA
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
@@ -403,8 +381,12 @@
 				<data>
 				AAAwAQ==
 				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 				<key>hda-gfx</key>
-				<string>onboard-2</string>
+				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel HD Graphics 530</string>
 			</dict>
@@ -1286,7 +1268,7 @@
 			<key>HibernateSkipsPicker</key>
 			<false/>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1302,7 +1284,7 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1468,7 +1450,7 @@
 				</data>
 				<key>UIScale</key>
 				<data>
-				AQ==
+				Ag==
 				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -2019,7 +2001,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
